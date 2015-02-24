@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {border:0;}
+ul, li {list-style: none; padding: 0; margin: 0;}
+
+#gallery-main ul {overflow:auto;}
+#gallery-main ul li {width:300px; margin-left:10px; margin-top:10px; float:left}
+#gallery-main ul li img {cursor:pointer;}
+.subject{text-align: center;}

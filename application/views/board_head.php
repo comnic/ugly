@@ -1,0 +1,1 @@
+<link href="/static/css/board.css" rel="stylesheet">
