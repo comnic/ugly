@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {	font-family: 'Nanum Gothic',"Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+img, object, embed, video {	max-width: 100%;}
+
+img {	border: 0;}
+
+a:link    {color:#333333; background-color:transparent; text-decoration:none}
+a:visited {color:#333333; background-color:transparent; text-decoration:none}
+a:hover   {color:#939598; background-color:transparent; text-decoration:none}
+a:active  {color:#333333; background-color:transparent; text-decoration:none}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {	width:100%;}
+
+ul, ol {	margin: 0px;	padding: 0px;}
+
+li {	list-style: none;}
+
+.panel {	margin-bottom: 0px;}
+
+.thumbnail {margin-bottom: 0px;}

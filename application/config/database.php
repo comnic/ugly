@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'comnic';
-$db['default']['password'] = 'comnic123098';
-$db['default']['database'] = 'comnic';
+$db['default']['username'] = 'beautystation';
+$db['default']['password'] = '1234';
+$db['default']['database'] = 'beautystation';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
